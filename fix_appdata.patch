@@ -1,0 +1,35 @@
+From 1bf4d5c9d8d9e22bbea4be565f1e409256ee1913 Mon Sep 17 00:00:00 2001
+From: Sabri Ünal <yakushabb@gmail.com>
+Date: Sun, 14 Dec 2025 21:55:14 +0300
+Subject: [PATCH] Fix appdata papercuts
+
+---
+ src/resources/io.github.weclaw1.ScoreTracker.metainfo.xml | 6 ++----
+ 1 file changed, 2 insertions(+), 4 deletions(-)
+
+diff --git a/src/resources/io.github.weclaw1.ScoreTracker.metainfo.xml b/src/resources/io.github.weclaw1.ScoreTracker.metainfo.xml
+index 08a8258..aee5000 100644
+--- a/src/resources/io.github.weclaw1.ScoreTracker.metainfo.xml
++++ b/src/resources/io.github.weclaw1.ScoreTracker.metainfo.xml
+@@ -21,15 +21,13 @@
+     <control>pointing</control>
+     <control>touch</control>
+   </recommends>
+-  <requires>
+-    <display_length compare="ge">small</display_length>
+-  </requires>
+ 
+   <releases>
+     <release version="1.0.1" date="2023-10-16" />
+   </releases>
+   <content_rating type="oars-1.0"/>
+   <developer_name>Robert Węcławski</developer_name>
+   <url type="homepage">https://github.com/weclaw1/score-tracker</url>
+   <url type="bugtracker">https://github.com/weclaw1/score-tracker/issues</url>
+-</component>
+\ No newline at end of file
++  <url type="vcs-browser">https://github.com/weclaw1/score-tracker</url>
++</component>
+--
+libgit2 1.7.2
+
