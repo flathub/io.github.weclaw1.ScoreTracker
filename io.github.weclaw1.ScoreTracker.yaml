@@ -1,6 +1,6 @@
 app-id: io.github.weclaw1.ScoreTracker
 runtime: org.gnome.Platform
-runtime-version: '45'
+runtime-version: '49'
 sdk: org.gnome.Sdk
 sdk-extensions:
 - org.freedesktop.Sdk.Extension.rust-stable
@@ -31,3 +31,5 @@ modules:
     url: https://github.com/weclaw1/score-tracker.git
     tag: '1.0.1'
     commit: ffcbeba6b2a53e3510e816243f40c92537d22053
+  - type: patch
+    path: fix_appdata.patch
